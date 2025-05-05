@@ -1,0 +1,8 @@
+build/* linguist-vendored
+dist/* linguist-vendored
+coverage/* linguist-vendored
+
+*.min.css linguist-generated
+*.min.js linguist-generated
+
+*.css linguist-vendored
