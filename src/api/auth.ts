@@ -20,7 +20,6 @@ export const refreshToken = (token: string) =>
 
 export const logout = () => {
   const token = getAccessToken();
-  console.log("from logout", token);
   return api.post(
     "/auth/logout",
     {},
